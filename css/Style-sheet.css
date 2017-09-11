@@ -1,0 +1,852 @@
+
+/*#aside{*/
+    /*position: absolute;*/
+    /*width: 500px;*/
+    /*height: 700px;*/
+    /*background-color: yellow;*/
+
+/*}*/
+#thisside-row-other{
+   top:410px;
+    height: 20px;
+
+
+}
+.div-div{
+    height:50px;
+    width: 82px;
+
+}
+#nav-bar{
+    height: 100px;
+}
+#parent {
+    position:relative;
+    top: 150px;
+    height:700px;
+    width: 1200px;
+    margin: 50px;
+    padding: 10px;
+    left:150px;
+    /*-webkit-perspective: 150px;*/
+    /*perspective: 450px;*/
+    /*left: 500px;*/
+}
+
+#background-main{
+
+
+}
+
+#child {
+    width:676px;
+    height:440px;
+    top:100px;
+    left: 300px;
+    position: absolute;
+    /*border-width: 10px;*/
+    /*transform-style: preserve-3d;*/
+    /*box-shadow: 5px 5px 20px 20px red;*/
+    background-color: blue;
+    /*-webkit-transform: rotateX(10deg);*/
+    /*transform: rotateX(10deg);*/
+}
+.div-other{
+    clear: both;
+    margin: 0px;
+
+    display: inline;
+    position: absolute;
+    height:50px;
+    width: 10px;
+    background-color: blue;
+
+
+}
+#oppo-div-other-2{
+
+    border: 1px solid black;
+    top: 10px;
+     left: 666px;
+
+ }
+#oppo-div-other-3{
+
+    border: 1px solid black;
+    top:60px;
+    /*left: 584px;*/
+
+}
+#oppo-div-other-4{
+
+    border: 1px solid black;
+    top:60px;
+    left: 666px;
+
+}
+#oppo-div-other-5{
+    border: 1px solid black;
+    top:110px;
+
+
+}
+#oppo-div-other-6{
+    border: 1px solid black;
+    top:110px;
+    left: 666px;
+
+}
+#oppo-div-other-7{
+    border: 1px solid black;
+    top:160px;
+
+
+}
+#oppo-div-other-8{
+    border: 1px solid black;
+    top:160px;
+    left: 666px;
+
+}
+#thisside-div-other-9{
+    border: 1px solid black;
+    top:210px;
+
+
+}
+#thisside-div-other-10{
+    border: 1px solid black;
+    top:210px;
+    left: 666px;
+
+}
+#thisside-div-other-11{
+    border: 1px solid black;
+    top:260px;
+
+
+}
+#thisside-div-other-12{
+    border: 1px solid black;
+    top:260px;
+    left: 666px;
+
+}
+#thisside-div-other-13{
+    border: 1px solid black;
+    top:310px;
+
+
+}
+#thisside-div-other-14{
+    border: 1px solid black;
+    top:310px;
+    left: 666px;
+
+}
+#thisside-div-other-15{
+    border: 1px solid black;
+    top:360px;
+
+
+}
+#thisside-div-other-16{
+    border: 1px solid black;
+    top:360px;
+    left: 666px;
+
+}
+.row-other{
+    position:relative;
+    height: 10px;
+    width:676px;
+    /*background-color: blue;*/
+
+
+}
+.row-other-div{
+    position: relative;
+    float: left;
+    padding-top: 10px;
+    /*left:82px;*/
+    width:82px;
+    height:10px;
+    border: 1px solid black;
+    display: inline-block;
+    background-color: blue;
+
+}
+.div-div{
+
+
+    /*background-image: url("../images/blackrook.png");*/
+    position: relative;
+    width: 82px;
+    height: 50px;
+    /*bottom: 5px;*/
+
+    /*transform: rotateX(-45deg);*/
+
+    /*transform: rotateY(0deg);*/
+
+
+}
+/*#ijse{
+    position: absolute;
+    top:10px;
+    right:20px;
+    color: white;
+
+}*/
+
+/*opposite*/
+
+#div-oppo-KR-1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width:82px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+
+}
+#div-oppo-KN-1{
+    position: absolute;
+    top: 10px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+
+}
+#div-oppo-KB-1{
+    position: absolute;
+    top: 10px;
+    left: 174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-K{
+    position: absolute;
+    top: 10px;
+    left:256px;
+    width:82px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-Q{
+    position: absolute;
+    top: 10px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-KB-2{
+    position: absolute;
+    top: 10px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-KN-2{
+    position: absolute;
+    top: 10px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-KR-2{
+    position: absolute;
+    top: 10px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-porn-1{
+    position: absolute;
+    left: 10px;
+    top:60px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-porn-2{
+    position: absolute;
+    top:60px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-porn-3{
+    position: absolute;
+    top:60px;
+    left:174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-porn-4{
+    position: absolute;
+    top:60px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-porn-5{
+    position: absolute;
+    top:60px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-porn-6{
+    position: absolute;
+    top:60px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-porn-7{
+    position: absolute;
+    top:60px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-porn-8{
+    position: absolute;
+    top:60px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-line1-1{
+    position: absolute;
+    left: 10px;
+    top:110px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-line1-2{
+    position: absolute;
+    top:110px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-oppo-line1-3{
+    position: absolute;
+    top:110px;
+    left:174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-line1-4{
+    position: absolute;
+    top:110px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-line1-5{
+    position: absolute;
+    top:110px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-line1-6{
+    position: absolute;
+    top:110px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-oppo-line1-7{
+    position: absolute;
+    top:110px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-line1-8{
+    position: absolute;
+    top:110px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-line2-1{
+    position: absolute;
+    left: 10px;
+    top:160px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-oppo-line2-2{
+    position: absolute;
+    top:160px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-oppo-line2-3{
+    position: absolute;
+    top:160px;
+    left:174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-oppo-line2-4{
+    position: absolute;
+    top:160px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-oppo-line2-5{
+    position: absolute;
+    top:160px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-oppo-line2-6{
+    position: absolute;
+    top:160px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-oppo-line2-7{
+    position: absolute;
+    top:160px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-oppo-line2-8{
+    position: absolute;
+    top:160px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+
+/*myside*/
+
+#div-thisside-line2-1{
+    position: absolute;
+    top:210px;
+    left:10px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-line2-2{
+    position: absolute;
+    top:210px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-line2-3{
+    position: absolute;
+    top:210px;
+    left:174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-thisside-line2-4{
+    position: absolute;
+    top:210px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-line2-5{
+    position: absolute;
+    top:210px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-line2-6{
+    position: absolute;
+    top:210px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-line2-7{
+    position: absolute;
+    top:210px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-line2-8{
+    position: absolute;
+    top:210px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-line1-1{
+    position: absolute;
+    left: 10px;
+    top:260px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-line1-2{
+    position: absolute;
+    top:260px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-line1-3{
+    position: absolute;
+    top:260px;
+    left:174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-line1-4{
+    position: absolute;
+    top:260px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-thisside-line1-5{
+    position: absolute;
+    top:260px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-line1-6{
+    position: absolute;
+    top:260px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-line1-7{
+    position: absolute;
+    top:260px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-line1-8{
+    position: absolute;
+    top:260px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+#div-thisside-porn-1{
+    position: absolute;
+    top:310px;
+    width:82px;
+    left:10px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-porn-2{
+    position: absolute;
+    top:310px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-porn-3{
+    position: absolute;
+    top:310px;
+    left:174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-porn-4{
+    position: absolute;
+    top:310px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-porn-5{
+    position: absolute;
+    top:310px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-porn-6{
+    position: absolute;
+    top:310px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-porn-7{
+    position: absolute;
+    top:310px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-porn-8{
+    position: absolute;
+    top:310px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: saddlebrown;
+}
+#div-thisside-KR-1{
+    position: absolute;
+    top:360px;
+    left:10px;
+    width:82px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-KN-1{
+    position: absolute;
+    top:360px;
+    left:92px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-KB-1{
+    position: absolute;
+    top:360px;
+    left: 174px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-K{
+    position: absolute;
+    top:360px;
+    left:256px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-Q{
+    position: absolute;
+    top:360px;
+    left:338px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-KB-2{
+    position: absolute;
+    top:360px;
+    left:420px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:white;
+}
+#div-thisside-KN-2{
+    position: absolute;
+    top:360px;
+    left:502px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color:saddlebrown;
+}
+#div-thisside-KR-2{
+    position: absolute;
+    top:360px;
+    left:584px;
+    width:82px;
+    height:50px;
+    border: 1px solid black;
+    display: inline;
+    background-color: white;
+}
+
+
+

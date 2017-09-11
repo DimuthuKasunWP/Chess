@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="device=width-device,initial-scale=1">
+    <title>Chess</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Style-sheet.css">
+    <style>
+        body{
+            /*background-image: url("image/a-game-of-chess-hd-wallpaper-1920x1200.jpg");*/
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<img alt="background" id="background-main" src="images/12.jpg" style=" position:absolute; width: 1500px;height: 800px">
+
+<!--<aside id="aside">-->
+    <!--<ul>-->
+        <!--<li>Play New </li>-->
+        <!--<li>Pause </li>-->
+
+
+
+
+    <!--</ul>-->
+<!--</aside>-->
+<!--<div class="container-fluid" >-->
+    <!--<main class="row">-->
+        <!--<nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar rounded-right" style="background-color: yellow;height: 300px;top: 200px"  >-->
+            <!--<ul class="nav nav-pills flex-column">-->
+                <!--<br>-->
+                <!--<br>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link active" href="#">New Game<span class="sr-only">(current)</span></a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">Pause</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">Continue</a>-->
+                <!--</li>-->
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">Best Ranks</a>-->
+                <!--</li>-->
+
+                <!--<li class="nav-item">-->
+                    <!--<a class="nav-link" href="#">Quit</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+
+
+
+
+        <!--</nav>-->
+
+
+
+
+<!--<nav id="nav-bar" class="navbar navbar-dark bg-dark">-->
+    <!--<a class="navbar-brand" style="color:orangered ">-->
+        <!--&lt;!&ndash;<img src="image/Chess_tile_kd.png" width="50" height="50" class="d-inline-block align-top" alt="">&ndash;&gt;-->
+        <!--King of The Kings-->
+    <!--</a>-->
+    <!--&lt;!&ndash;<div id="ijse">&ndash;&gt;-->
+        <!--&lt;!&ndash;powered by&ndash;&gt;-->
+        <!--&lt;!&ndash;<img src="image/footer_logo.png" width="100">&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--</nav>-->
+        <!--<main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">-->
+<div id="parent"  >
+    <div id="child" style="text-align: center;position:absolute;left: 200px;">
+
+        <!--<div class="row-other" style="left: 10px;height: 10px;">-->
+            <!--<div class="row-other-mini" id="row-other-mini-1"></div>-->
+            <!--<div class="row-other-div"><span style="color: red">A</span></div>-->
+            <!--<div class="row-other-div">B</div>-->
+            <!--<div class="row-other-div">C</div>-->
+            <!--<div class="row-other-div">D</div>-->
+            <!--<div class="row-other-div">E</div>-->
+            <!--<div class="row-other-div">F</div>-->
+            <!--<div class="row-other-div">F</div>-->
+            <!--<div class="row-other-div">G</div>-->
+            <!--<div class="row-other-mini"  id="row-other-mini-2"></div>-->
+        <!--</div>-->
+        <!--oppo-->
+
+        <div  class="div-other" id="oppo-div-other-1">8</div>
+        <div id="div-oppo-KR-1" class="div-KR"><div class="div-div" draggable="true"><img  draggable="true" id="img-black-rook-1" src="images/blackrook.png" style="width: 82px;height:50px;bottom: 5px "></div></div>
+        <div id="div-oppo-KN-1" class="div-KN"><div class="div-div"><img id="img-black-knight-1" src="images/blackknight.png "  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-KB-1" class="div-KB"><div class="div-div"><img id="img-black-bishop-1" src="images/blackbishop.png "  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-K" class="div-K"><div class="div-div"><img id="img-black-king" src="images/blackking.png "  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-Q" class="div-Q"><div class="div-div"><img id="img-black-queen" src="images/blackqueen.png"  style="width: 82px;height:50px; "></div></div>
+        <div id="div-oppo-KB-2" class="div-KB"><div class="div-div"><img id="img-black-bishop-2" src="images/blackbishop.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-KN-2" class="div-KN"><div class="div-div"><img id="img-black-knight-2" src="images/blackknight.png" style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-KR-2" class="div-KR"><div class="div-div"><img id="img-black-rook-2" src="images/blackrook.png"  style="width: 82px;height:50px "></div></div>
+        <!--<div  class="div-other"  id="oppo-div-other-2"></div>-->
+
+        <div  class="div-other"  id="oppo-div-other-3">7</div>
+        <div id="div-oppo-porn-1" class="div-pn"><div class="div-div"><img id="img-black-pawn-1" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-2" class="div-pn"><div class="div-div"><img id="img-black-pawn-2" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-3" class="div-pn"><div class="div-div"><img id="img-black-pawn-3" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-4" class="div-pn"><div class="div-div"><img id="img-black-pawn-4" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-5" class="div-pn"><div class="div-div"><img id="img-black-pawn-5" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-6" class="div-pn"><div class="div-div"><img id="img-black-pawn-6" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-7" class="div-pn"><div class="div-div"><img id="img-black-pawn-7" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-oppo-porn-8" class="div-pn"><div class="div-div"><img id="img-black-pawn-8" src="images/blackporn.png"  style="width: 82px;height:50px "></div></div>
+        <!--<div  class="div-other"  id="oppo-div-other-4"></div>-->
+
+        <div  class="div-other"  id="oppo-div-other-5">6</div>
+        <div id="div-oppo-line1-1" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-2" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-3" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-4" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-5" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-6" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-7" ><div class="div-div"></div></div>
+        <div id="div-oppo-line1-8" ><div class="div-div"></div></div>
+        <!--<div  class="div-other"  id="oppo-div-other-6"></div>-->
+
+        <div  class="div-other"  id="oppo-div-other-7">5</div>
+        <div id="div-oppo-line2-1" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-2" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-3" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-4" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-5" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-6" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-7" ><div class="div-div"></div></div>
+        <div id="div-oppo-line2-8" ><div class="div-div"></div></div>
+        <!--<div  class="div-other"  id="oppo-div-other-8"></div>-->
+        <!--thisside-->
+
+        <div  class="div-other"  id="thisside-div-other-9">4</div>
+        <div id="div-thisside-line2-1" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-2" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-3" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-4" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-5" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-6" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-7" ><div class="div-div"></div></div>
+        <div id="div-thisside-line2-8" ><div class="div-div"></div></div>
+        <!--<div  class="div-other"  id="thisside-div-other-10"></div>-->
+
+        <div  class="div-other"  id="thisside-div-other-11">3</div>
+        <div id="div-thisside-line1-1" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-2" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-3" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-4" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-5" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-6" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-7" ><div class="div-div"></div></div>
+        <div id="div-thisside-line1-8" ><div class="div-div"></div></div>
+        <!--<div  class="div-other"  id="thisside-div-other-12"></div>-->
+
+        <div  class="div-other"  id="thisside-div-other-13">2</div>
+        <div id="div-thisside-porn-1" class="div-pn"><div class="div-div"><img draggable="true" id="img-white-pawn-1" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-2" class="div-pn"><div class="div-div"><img id="img-white-pawn-2" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-3" class="div-pn"><div class="div-div"><img id="img-white-pawn-3" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-4" class="div-pn"><div class="div-div"><img id="img-white-pawn-4" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-5" class="div-pn"><div class="div-div"><img id="img-white-pawn-5" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-6" class="div-pn"><div class="div-div"><img id="img-white-pawn-6" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-7" class="div-pn"><div class="div-div"><img id="img-white-pawn-7" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-porn-8" class="div-pn"><div class="div-div"><img id="img-white-pawn-8" src="images/whiteporn.png"  style="width: 82px;height:50px "></div></div>
+        <!--<div  class="div-other"  id="thisside-div-other-14"></div>-->
+
+        <div  class="div-other"  id="thisside-div-other-15">1</div>
+        <div id="div-thisside-KR-1" class="div-KR"><div class="div-div"><img id="img-white-rook-1" src="images/whiterook.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-KN-1" class="div-KN"><div class="div-div"><img id="img-white-knight-1" src="images/whiteknight.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-KB-1" class="div-KB"><div class="div-div"><img id="img-white-bishop-1" src="images/whitebishop.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-K" class="div-K"><div class="div-div"><img id="img-white-king" src="images/whiteking.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-Q" class="div-Q"><div class="div-div"><img id="img-white-queen" src="images/whitequeen.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-KB-2" class="div-KB"><div class="div-div"><img id="img-white-bishop-2" src="images/whitebishop.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-KN-2" class="div-KN"><div class="div-div"><img id="img-white-knight-2" src="images/whiteknight.png"  style="width: 82px;height:50px "></div></div>
+        <div id="div-thisside-KR-2" class="div-KR"><div class="div-div" style="position: absolute"><img id="img-white-rook-2" src="images/whiterook.png"  style="width: 82px;height:50px "></div></div>
+        <!--<div  class="div-other"  id="thisside-div-other-16"></div>-->
+
+        <div class="row-other" id="thisside-row-other" style="left: 10px">
+
+            <div class="row-other-mini"  id="row-other-mini-3"></div>
+            <div id="thisside-other-div-1" class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;"><span style="text-align: center">A</span></div>
+            <div id="thisside-other-div-2" class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">B</div>
+            <div id="thisside-other-div-3"class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">C</div>
+            <div id="thisside-other-div-4" class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">D</div>
+            <div id="thisside-other-div-5"class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">E</div>
+            <div id="thisside-other-div-6"class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">F</div>
+            <div id="thisside-other-div-7"class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">G</div>
+            <div id="thisside-other-div-8"class="row-other-div" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;">H</div>
+            <div class="row-other-mini"  id="row-other-mini-4" style="height:20px;text-align: center; border-width: 0px 0px 0px 0px;"></div>
+        </div>
+
+    <!--</div>-->
+<!--</div>-->
+    </main>
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/Controller.js"></script>
+</body>
+</html>
